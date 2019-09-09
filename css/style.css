@@ -19,6 +19,8 @@ body {
     padding: 40px;
     background-color: #F5F5F5;
     border-radius: 20px;
+    color: #444444;
+    box-shadow: 34px 37px 25px -43px rgba(0,0,0,0.75);
 }
 
     .left {
@@ -26,6 +28,66 @@ body {
         width: 40%;
         float: left;
     }
+        header {
+            display: inline-block;
+            width: 100%;
+            text-transform: uppercase;
+        }
+
+        .brand {
+            display: inline-block;
+            width: 25%;
+            float: left;
+        }
+
+        nav {
+            display: inline-block;
+            width: 75%;
+            margin-bottom: 150px;
+        }
+
+        nav > a {
+            color: #444444;
+            text-decoration: none;
+            font-size: 8px;
+            line-height: 10px;
+            padding-left: 33px;
+        }
+
+        main {
+            display: inline-block;
+            width: 50%;
+        }
+
+        main > h1 {
+            display: inline-block;
+            width: 100%;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        main > p {
+            display: inline-block;
+            width: 80%;
+            font-size: 8px;
+            line-height: 14px;
+            font-weight: 200;
+            margin-bottom: 48px;
+        }
+
+        main > div {
+            display: inline-block;
+            width: 45%;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-align: center;
+            font-size: 6px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #44A3B3;
+            border: 1px solid #5E7D8E;
+            border-radius: 6px;
+        }
 
     .right {
         display: inline-block;
