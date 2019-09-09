@@ -1,0 +1,31 @@
+body, body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EBE7E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #D5CFCA, #EBE7E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #D5CFCA, #EBE7E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    display: inline-block;
+    width: 900px;
+    margin: 200px calc((100% - 900px) / 2 );
+    background-color: #F5F5F5;
+}
+
+    .left {
+        display: inline-block;
+        width: 40%;
+        float: left;
+    }
+
+    .right {
+        display: inline-block;
+        width: 60%;
+        float: left;
+    }
